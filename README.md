@@ -1,1 +1,1 @@
-# Image-Captioning-using-CNN-and-RNN-with-Bahdenau-Attention
+# Image Captioning using CNN and RNN- with Bahdenau Attention
