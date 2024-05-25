@@ -8,11 +8,15 @@
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)](https://www.anaconda.com)
 
-## Project Description
-This project implements an image captioning model using Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Bahdanau Attention mechanism.
-
 ### Objective
 The objective of this project is to develop an image captioning model capable of generating accurate and contextually relevant captions for images.
+
+## Project Description
+- In this project, I've developed an image captioning model that effectively combines techniques from both computer vision and natural language processing, utilizing the COCO (Common Objects in Context) dataset.
+- Implemented Convolutional Neural Networks (CNNs) to extract features from images in the COCO dataset, enabling the model to understand the visual content.
+- Utilized Recurrent Neural Networks (RNNs) to generate sequential text for captions, ensuring coherence and grammatical correctness, based on the image features extracted from the COCO dataset.
+- Incorporated Bahdanau Attention mechanism into the model to dynamically focus on different parts of the images from the COCO dataset, enhancing the relevance and detail of the generated captions.
+- Trained the model on the COCO dataset, which provides a large collection of images paired with corresponding captions, allowing the model to learn the relationship between visual content and textual descriptions in various contexts.
 
 ### Key Components
 1. **CNN Feature Extraction**: Utilized CNNs to extract meaningful features from images, enabling the model to understand visual content.
